@@ -1,3 +1,6 @@
+/*
+* 在Linux系统中，终端下输入密码时，将密码隐藏，用字符'*'代替
+*/
 #include <stdio.h>
 #include <termios.h>
 #include <unistd.h>
