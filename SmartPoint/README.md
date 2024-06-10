@@ -59,7 +59,7 @@ int main(void) {
 
 智能指针本质是一个**类模板**它可以创建任意的类型的指针对象，当智能指针对象使用完后***\*，对象就会自动调用析构函数去释放该指针所指向的空间\****。如下所示：
 
-![屏幕截图 2024-06-10 121244](D:\Typora\pictures\屏幕截图 2024-06-10 121244.png)
+![屏幕截图 2024-06-10 121244](https://github.com/Scholar618/C_CPP_Learning/blob/main/imgs/smartPoint1.png)
 
 这样即可自己写一个简易的智能指针：
 
@@ -107,7 +107,7 @@ int main()
 
 结果：
 
-![屏幕截图 2024-06-10 121959](D:\Typora\pictures\屏幕截图 2024-06-10 121959.png)
+![屏幕截图 2024-06-10 121959](https://github.com/Scholar618/C_CPP_Learning/blob/main/imgs/smartPoint2.png)
 
 ## 4、常见智能指针
 
@@ -165,7 +165,7 @@ public:
 
 查看unique_ptr函数，会发现拷贝和构造函数都被删除，这是编译器防止程序员**自掘坟墓**，做出的提示！
 
-![屏幕截图 2024-06-10 132314](D:\Typora\pictures\屏幕截图 2024-06-10 132314.png)
+![屏幕截图 2024-06-10 132314](https://github.com/Scholar618/C_CPP_Learning/blob/main/imgs/smartPoint3.png)
 
 ### 3、shared_ptr
 
